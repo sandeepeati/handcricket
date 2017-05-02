@@ -81,54 +81,42 @@ def game():
                     else:
                         runs = runs + 1
                         k = 1
-                        batsmen(1)
-                        bowler(bowl)
-                        showscore(runs)
+                        
                 if event.key == pygame.K_2:
                     if bowl == 2:
                         out(runs)
                     else:
                         runs += 2
                         k = 2
-                        batsmen(2)
-                        bowler(bowl)
-                        showscore(runs)
+                        
                 if event.key == pygame.K_3:
                     if bowl == 3:
                         out(runs)
                     else:
                         runs += 3
                         k = 3
-                        batsmen(3)
-                        bowler(bowl)
-                        showscore(runs)
+                        
                 if event.key == pygame.K_4:
                     if bowl == 4:
                         out(runs)
                     else:
                         runs += 4
                         k = 4
-                        batsmen(4)
-                        bowler(bowl)
-                        showscore(runs)
+                        
                 if event.key == pygame.K_5:
                     if bowl == 5:
                         out(runs)
                     else:
                         runs += 5
                         k = 5
-                        batsmen(5)
-                        bowler(bowl)
-                        showscore(runs)
+                        
                 if event.key == pygame.K_6:
                     if bowl == 6:
                         out(runs)
                     else:
                         runs += 6
                         k = 6
-                        batsmen(6)
-                        bowler(bowl)
-                        showscore(runs)
+                        
                 if event.key == pygame.K_ESCAPE:
                     pygame.event.post(pygame.event.Event(pygame.QUIT))
 
