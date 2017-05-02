@@ -74,7 +74,7 @@ def game():
                 pygame.quit()
                 sys.exit()
             elif event.type == pygame.KEYDOWN:
-                bowl = random.randrange(1,6)
+                bowl = random.randrange(1,7)
                 if event.key == pygame.K_1:
                     if bowl == 1:
                         out(runs)
