@@ -1,2 +1,3 @@
-# handcricket
-hand cricket game using pygame module in python
+# Hand-cricket
+Hand cricket game using pygame module in python. 
+
